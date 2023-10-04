@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+  ivan_site:
+    build:
+      context: ./ivan_site
+    ports:
+      - "80:80"
+
+  anton_site:
+    build:
+      context: ./anton_site
+    ports:
+      - "8080:80"
+
+  nginx:
+    build:
+      context: ./nginx
+    ports:
+      - "8000:80"
+    depends_on:
+      - ivan_site
+      - anton_site
