@@ -1,3 +1,3 @@
 DEVOPS TASK
-test6 jenkins trigger
+test7 jenkins trigger
 
