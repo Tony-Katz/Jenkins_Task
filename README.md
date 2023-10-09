@@ -1,2 +1,2 @@
-trigger test1
+trigger test2
 
