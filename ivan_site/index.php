@@ -4,6 +4,6 @@
     <title>Ivan's Site</title>
 </head>
 <body>
-    <h1 style="color:blue;">Ivan</h1>
+    <h1 style="color:yellow;">Ivan</h1>
 </body>
 </html>
